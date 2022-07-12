@@ -1,0 +1,11 @@
+services:
+  db:
+    image: mysql
+    volumes:
+      - .:/var/test/mysql
+    ports: 
+      - 8877:8877
+    environment:
+      - MYSQL_TCP_PORT=8877
+      - MYSQL_DATABASE=test
+      - MYSQL_ROOT_PASSWORD=root

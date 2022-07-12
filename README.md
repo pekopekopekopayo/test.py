@@ -1,1 +1,1 @@
-# test.py
+# Django 테스트 공간
